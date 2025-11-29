@@ -37,4 +37,5 @@ T himport(std::string library, std::vector<std::uint8_t> hash) {
             return reinterpret_cast<T>(reinterpret_cast<std::uintptr_t>(base + functions[ordinals[i]]));
         }
     }
+    return nullptr;
 }
