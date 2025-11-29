@@ -9,7 +9,7 @@ Very ez
 ```cpp
 himport
     <int(__stdcall*)(HWND, LPCSTR, LPCSTR, UINT)>       // MessageBoxA function type
-    (a
+    (
         "User32.dll",                                   // DLL Name
         { 0, 76, 99, 73, 119, 94, 35, 44, 42, 30, 29 }  // Hashed MessageBoxA
     )
